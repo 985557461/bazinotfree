@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bar_bg">#656074</color>
+    <color name="common_gray">#999999</color>
+    <color name="common_black">#656074</color>
+    <color name="common_red">#ff6666</color>
+    <color name="common_white">#ffffff</color>
+    <color name="header_line_color">#c1c1c1</color>
+    <color name="line_color">#dadae5</color>
+    <color name="transprant">#00000000</color>
+
+    <color name="black_10">#19000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_80">#cc000000</color>
+</resources>

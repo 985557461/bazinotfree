@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--动画左右切换的theme-->
+    <style name="LeftRight" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+    <!--
+    1:第一个表示新的activity创建进入效果
+    2:第2个表示activity还没有finish()下退出效果
+    3:第3个表示上一个activity返回进入效果
+    4:第4个表示的是activity finish()之后退出效果
+    -->
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_to_right</item>
+    </style>
+</resources>
